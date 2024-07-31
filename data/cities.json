@@ -1,0 +1,25 @@
+[
+    {
+        "id": "fr",
+        "city": []
+    },
+    {
+        "id": "us",
+        "city": [
+            {
+                "uniq_id": "fcdae54b-4bdb-458c-aa98-75ce67dca579",
+                "created_at": "2024-06-12T09:42:38.406876",
+                "updated_at": "2024-06-12T09:42:38.406881",
+                "name": "paris",
+                "country_id": "us"
+            },
+            {
+                "uniq_id": "35ea71fe-b74a-4e93-8334-742f59a30e79",
+                "created_at": "2024-06-12T10:26:27.430015",
+                "updated_at": "2024-06-12T10:26:27.430023",
+                "name": "TOON",
+                "country_id": "us"
+            }
+        ]
+    }
+]

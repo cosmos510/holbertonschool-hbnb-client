@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - ENV=development
+      - DATABASE_URL_FILE=/run/secrets/db_credentials
+    secrets:
+      - jwt_secret
+    volumes:
+      - .:/app
+
+secrets:
+  jwt_secret:
+    external: true
+  db_credentials:
+    external: true

@@ -1,0 +1,42 @@
+[
+    {
+        "uniq_id": "edce77de-6966-41c4-b8bb-d2854bc6e96f",
+        "created_at": "2024-06-11T13:06:44.702655",
+        "updated_at": "2024-06-11T13:06:44.702665",
+        "email": "jpp@jpp.com",
+        "first_name": "Jean",
+        "last_name": "Peuxplus"
+    },
+    {
+        "uniq_id": "e7399945-4299-4cb4-80ae-3af6ecc39fcb",
+        "created_at": "2024-06-11T13:39:53.622669",
+        "updated_at": "2024-06-11T13:39:53.622685",
+        "email": "hello@test.com",
+        "first_name": "Judy",
+        "last_name": "Test"
+    },
+    {
+        "uniq_id": "8f0259d2-c74b-4d70-a41c-1850a3aff6cb",
+        "created_at": "2024-06-11T14:28:32.485868",
+        "updated_at": "2024-06-11T14:28:32.485885",
+        "email": "nicolas@doyen.co.uk",
+        "first_name": "Nicolas",
+        "last_name": "Doyen"
+    },
+    {
+        "uniq_id": "55d86ebe-4877-4dd7-99b7-7d9dd3b6aa4a",
+        "created_at": "2024-06-11T14:28:59.928406",
+        "updated_at": "2024-06-11T14:28:59.928423",
+        "email": "maxime@martin.fr",
+        "first_name": "Maxime",
+        "last_name": "Martin"
+    },
+    {
+        "uniq_id": "0478ef29-68b2-4c6d-8e1e-9c8d4cb30030",
+        "created_at": "2024-06-11T14:29:20.700474",
+        "updated_at": "2024-06-11T14:29:20.700485",
+        "email": "jerome@romand.ch",
+        "first_name": "Jerome",
+        "last_name": "Romand"
+    }
+]

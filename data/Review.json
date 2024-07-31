@@ -1,0 +1,92 @@
+[
+    {
+        "uniq_id": "91254abb-2979-40cf-ab5f-dcd4cc9d4e19",
+        "created_at": "2024-06-11T09:35:18.809002",
+        "updated_at": "2024-06-11T09:35:18.809011",
+        "review_id": "6b2c7113-a6fc-4ce0-bb12-bab5d421c72d",
+        "place_id": "358f7d35-494b-4357-a813-bc18e16bf03b",
+        "rating": 2,
+        "comment": "all good"
+    },
+    {
+        "uniq_id": "45e270cf-ba46-4d9a-a37b-3456b8f43c8f",
+        "created_at": "2024-06-11T10:21:34.072856",
+        "updated_at": "2024-06-11T10:21:34.072865",
+        "review_id": "6b2c7113-a6fc-4ce0-bb12-bab5d421c72d",
+        "place_id": "358f7d35-494b-4357-a813-bc18e16bf03b",
+        "rating": 2,
+        "comment": "all good"
+    },
+    {
+        "uniq_id": "1f92a19f-2882-4d32-b3fd-3099d0089530",
+        "created_at": "2024-06-11T10:51:53.131207",
+        "updated_at": "2024-06-11T10:51:53.131216",
+        "review_id": "6b2c7113-a6fc-4ce0-bb12-bab5d421c72d",
+        "place_id": "358f7d35-494b-4357-a813-bc18e16bf03b",
+        "rating": 2,
+        "comment": "all good"
+    },
+    {
+        "uniq_id": "126cd41a-526e-4a46-944c-7ad72da3931a",
+        "created_at": "2024-06-11T10:52:17.749568",
+        "updated_at": "2024-06-11T10:52:17.749580",
+        "review_id": "6b2c7113-a6fc-4ce0-bb12-bab5d421c72d",
+        "place_id": "358f7d35-494b-4357-a813-bc18e16bf03b",
+        "rating": 2,
+        "comment": "all good"
+    },
+    {
+        "uniq_id": "87d7106d-88bd-4678-8273-19493ddc6f8b",
+        "created_at": "2024-06-11T11:03:53.267861",
+        "updated_at": "2024-06-11T11:03:53.267870",
+        "review_id": "985493bf-c77f-41f6-b703-581a8a6ecea8",
+        "place_id": "358f7d35-494b-4357-a813-bc18e16bf03b",
+        "rating": 2,
+        "comment": "all good"
+    },
+    {
+        "uniq_id": "3e8b3b8a-4ad2-4646-a3da-d3c97fd403c4",
+        "created_at": "2024-06-11T11:13:38.786898",
+        "updated_at": "2024-06-11T11:13:38.786909",
+        "review_id": "37d60987-8b43-48f1-a273-f437b875fe47",
+        "place_id": "358f7d35-494b-4357-a813-bc18e16bf03b",
+        "rating": 2,
+        "comment": "all good"
+    },
+    {
+        "uniq_id": "e51e0f76-78dd-43c1-8c69-1d4124b579af",
+        "created_at": "2024-06-11T11:17:25.987035",
+        "updated_at": "2024-06-11T11:17:25.987044",
+        "review_id": "37d60987-8b43-48f1-a273-f437b875fe47",
+        "place_id": "358f7d35-494b-4357-a813-bc18e16bf03b",
+        "rating": 2,
+        "comment": "all good"
+    },
+    {
+        "uniq_id": "3044796b-3cce-4278-9be9-acc61e53f28c",
+        "created_at": "2024-06-11T11:17:31.608632",
+        "updated_at": "2024-06-11T11:17:31.608638",
+        "review_id": "37d60987-8b43-48f1-a273-f437b875fe47",
+        "place_id": "358f7d35-494b-4357-a813-bc18e16bf03b",
+        "rating": 2,
+        "comment": "all good"
+    },
+    {
+        "uniq_id": "1950e51b-9c82-4404-86d2-d7538edf16a0",
+        "created_at": "2024-06-11T11:22:13.217906",
+        "updated_at": "2024-06-11T11:22:13.217914",
+        "review_id": "37d60987-8b43-48f1-a273-f437b875fe47",
+        "place_id": "358f7d35-494b-4357-a813-bc18e16bf03b",
+        "rating": 2,
+        "comment": "all good"
+    },
+    {
+        "uniq_id": "912c4130-86cd-4fb8-879d-3116eb6e2977",
+        "created_at": "2024-06-11T11:26:10.052572",
+        "updated_at": "2024-06-11T11:26:10.052581",
+        "review_id": "37d60987-8b43-48f1-a273-f437b875fe47",
+        "place_id": "358f7d35-494b-4357-a813-bc18e16bf03b",
+        "rating": 2,
+        "comment": "all good"
+    }
+]
