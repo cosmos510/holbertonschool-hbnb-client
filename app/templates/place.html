@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}{{ place.name }} Details{% endblock %}
+
+{% block content %}
+    <h1>{{ place.name }}</h1>
+    <div class="place-card">
+        <p><strong>Host:</strong> {{ user.first_name }}</p>
+        <p><strong>Price per Night:</strong> ${{ place.price_per_night }}</p>
+        <p><strong>Location:</strong> {{ place.city_name }}</p>
+        <p><strong>Description:</strong> {{ place.description }}</p>
+        <p><strong>Amenities:</strong> {{ place.amenities }}</p>
+    </div>
+
+    <h2>Reviews</h2>
+    {% if reviews %}
+        <ul class="reviews-list">
+            {% for review in reviews %}
+                <li>
+                    <p><strong>{{ review.author }}:</strong> {{ review.comment }}</p>
+                    <p><strong>Rating:</strong> {{ review.rating }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No reviews available for this place.</p>
+    {% endif %}
+{% endblock %}

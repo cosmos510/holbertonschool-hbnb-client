@@ -24,6 +24,8 @@ from api.amenities_api import amenities_api
 from api.review_api import review_api
 from api.cities_api import cities_api
 from api.auth import auth
+from api.index_api import index_api
+from api.index_api import place
 #---------------------------------------------------------------------
 from flask_jwt_extended import JWTManager, create_access_token, jwt_required, get_jwt_identity
 
@@ -67,6 +69,8 @@ app.register_blueprint(amenities_api)
 app.register_blueprint(review_api)
 app.register_blueprint(cities_api)
 app.register_blueprint(auth)
+app.register_blueprint(index_api)
+app.register_blueprint(place)
 
 if __name__ == "__main__":
     with app.app_context():
