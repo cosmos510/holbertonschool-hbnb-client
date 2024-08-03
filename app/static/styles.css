@@ -15,6 +15,9 @@ header {
 .logo {
     height: 50px;
 }
+.review- {
+    float: left;
+}
 
 .nav-button {
     text-decoration: none;
@@ -67,6 +70,21 @@ h1 {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+.reviews-list {
+    
+}
+
+.place-card-detail {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 250px;
+    text-align: left;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: auto;
+}
+
 .place-image {
     width: 100%;
     height: 150px;
@@ -103,4 +121,137 @@ footer {
     position: absolute;
     width: 100%;
     bottom: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header {
+    background-color: #ff9900;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-button {
+    text-decoration: none;
+    color: white;
+    background-color: #ff9900;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.place-card-detail {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    width: 60%;
+    margin: 0 auto 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.reviews-section {
+    margin: 20px 0;
+}
+
+h2 {
+    text-align: left;
+}
+
+h3 {
+    text-align: left;
+}
+
+.reviews-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.reviews-list li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+#add-review {
+    margin: 20px 0;
+}
+
+#review-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+#review-form label {
+    font-weight: bold;
+    margin: 10px 0 5px;
+}
+
+#review-form textarea {
+    width: 60%;
+    height: 100px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#review-form select {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+#review-form button {
+    padding: 10px 20px;
+    color: white;
+    background-color: #ff9900;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.wrapper {
+    flex: 1;
+    padding-bottom: 80px; /* Add padding to ensure content does not touch the footer */
+}
+footer {
+    background-color: #ff9900;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+.place-card {
+    text-align: center;
 }

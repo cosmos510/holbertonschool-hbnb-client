@@ -4,7 +4,7 @@
 
 {% block content %}
     <h1>{{ place.name }}</h1>
-    <div class="place-card">
+    <div class="place-card-detail">
         <p><strong>Host:</strong> {{ user.first_name }}</p>
         <p><strong>Price per Night:</strong> ${{ place.price_per_night }}</p>
         <p><strong>Location:</strong> {{ place.city_name }}</p>
@@ -13,16 +13,35 @@
     </div>
 
     <h2>Reviews</h2>
-    {% if reviews %}
-        <ul class="reviews-list">
-            {% for review in reviews %}
-                <li>
-                    <p><strong>{{ review.author }}:</strong> {{ review.comment }}</p>
-                    <p><strong>Rating:</strong> {{ review.rating }}</p>
-                </li>
-            {% endfor %}
-        </ul>
-    {% else %}
-        <p>No reviews available for this place.</p>
-    {% endif %}
+                <div id="review-list">
+                    <!-- Reviews will be populated here -->
+                </div>
+        {% else %}
+            <p>No reviews available for this place.</p>
+        {% endif %}
+    </div>
+
+    <section id="add-review">
+        <h2>Add a Review</h2>
+        <h3>Your Review:</h3>
+        <form id="review-form">
+            <textarea id="review-text" name="review-text" required></textarea>
+
+            
+        </form>
+        <h3>Rating:</h3>
+        <form id="review-form">
+            <select name="score" id="rating">
+                <option value="1 star">1 star</option>
+                <option value="2 star">2 stars</option>
+                <option value="3 star">3 stars</option>
+                <option value="4 star">4 stars</option>
+                <option value="5 star">5 stars</option>
+            </select>
+
+            <button type="submit">Submit Review</button>
+            </form>
+            <br>
+            <script src="/static/scripts.js"></script>
+    </section>
 {% endblock %}

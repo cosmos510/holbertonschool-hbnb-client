@@ -8,16 +8,36 @@
     <label for="country-filter">Filter by country:</label>
     <select id="country-filter" name="country">
         <option value="all">All</option>
+        {% for country in countries %}
+        <option value="{{ country.code }}">{{ country.name }}</option>
+        {% endfor %}
     </select>
 </div>
-<div class="places">
+<div class="places" id="places-container">
     {% for place in places %}
     <div class="place-card">
-        <h2>{{ place.name }}</h2>
+        <p><strong>{{ place.name }}</strong></p>
+        <br>
         <p>Price per night: ${{ place.price_per_night }}</p>
+        <br>
         <p>Location: {{ place.city_name }}</p>
+        <br>
+        <p>Code: {{ place.code }}</p>
         <a href="/detail/{{ place.id }}" class="details-button">View Details</a>
     </div>
     {% endfor %}
 </div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    document.getElementById('country-filter').addEventListener('change', function() {
+        const selectedCountry = this.value;
+        let url = '/?';
+        if (selectedCountry !== 'all') {
+            url += `country=${selectedCountry}`;
+        }
+        window.location.href = url;
+    });
+</script>
 {% endblock %}
